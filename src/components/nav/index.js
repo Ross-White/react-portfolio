@@ -1,20 +1,20 @@
 import React from 'react';
 
-const Navigation = () => {
+const Navigation = ({ currentPage, handlePageChange }) => {
     return (
         <nav>
             <ul>
                 <li>
-                    <a href="#">Home</a>
+                    <a href="/about">Home</a>
                 </li>
                 <li>
-                    <a href="#">Portfolio</a>
+                    <a href="/portfolio">Portfolio</a>
                 </li>
                 <li>
-                    <a href="#">Contact</a>
+                    <a href="/contact">Contact</a>
                 </li>
                 <li>
-                    <a href="#">CV</a>
+                    <a href="/cv">CV</a>
                 </li>
             </ul>
         </nav>

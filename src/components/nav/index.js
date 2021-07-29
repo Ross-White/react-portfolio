@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Navigation = ({ currentPage, handlePageChange }) => {
+const Navigation = () => {
     return (
         <nav>
             <ul>

@@ -5,6 +5,7 @@ import About from './components/about';
 import Portfolio from "./components/portfolio";
 import Contact from './components/contact';
 import CV from './components/cv';
+import Footer from './components/footer';
 
 
 function App() {
@@ -28,6 +29,8 @@ function App() {
       <Router>
         <Route path='/contact' component={Contact} />
       </Router>
+
+      <Footer />
 
     </Router>
   );

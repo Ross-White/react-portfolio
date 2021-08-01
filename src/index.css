@@ -16,3 +16,8 @@ header {
     color: var(--primary);
     background-color: var(--secondary);
     }
+
+main {
+    background-color: var(--secondary);
+    color: var(--primary);
+}

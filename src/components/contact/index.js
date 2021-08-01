@@ -10,12 +10,10 @@ const Contact = () => {
   const [errorMessage, setErrorMessage] = useState('');
 
   const handleInputChange = (event) => {
-    // Getting the value and name of the input which triggered the change
     const { target } = event;
     const inputType = target.name;
     const inputValue = target.value;
 
-    // Based on the input type, we set the state of either email, name, and message
     if (inputType === 'email') {
       setEmail(inputValue);
     } else if (inputType === 'name') {

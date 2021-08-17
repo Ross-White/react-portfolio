@@ -1,10 +1,10 @@
 import React from 'react'; 
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Header from './components/header';
-import About from './components/about';
-import Portfolio from "./components/portfolio";
-import Contact from './components/contact';
-import CV from './components/cv';
+import About from './pages/about';
+import Portfolio from "./pages/portfolio";
+import Contact from './pages/contact';
+import CV from './pages/cv';
 import Footer from './components/footer';
 
 

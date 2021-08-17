@@ -1,10 +1,10 @@
 import React from 'react'; 
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Header from './components/header';
-import About from './components/about';
-import Portfolio from "./components/portfolio";
-import Contact from './components/contact';
-import CV from './components/cv';
+import About from './pages/about';
+import Portfolio from "./pages/portfolio";
+import Contact from './pages/contact';
+import CV from './pages/cv';
 import Footer from './components/footer';
 
 
@@ -13,15 +13,15 @@ function App() {
 
     <Router>
       <Header />
-
-      <Switch>
-        <Route exact path="/" component={About} />
-        <Route exact path='/about' component={About} />
-        <Route exact path='/portfolio' component={Portfolio} />
-        <Route exact path='/cv' component={CV} />
-        <Route exact path='/contact' component={Contact} />
-      </Switch>
-
+      <div className="main-container">
+        <Switch>
+          <Route exact path="/" component={About} />
+          <Route exact path='/about' component={About} />
+          <Route exact path='/portfolio' component={Portfolio} />
+          <Route exact path='/cv' component={CV} />
+          <Route exact path='/contact' component={Contact} />
+        </Switch>
+      </div>
       <Footer />
 
     </Router>

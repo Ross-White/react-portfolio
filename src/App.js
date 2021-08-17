@@ -13,15 +13,15 @@ function App() {
 
     <Router>
       <Header />
-
-      <Switch>
-        <Route exact path="/" component={About} />
-        <Route exact path='/about' component={About} />
-        <Route exact path='/portfolio' component={Portfolio} />
-        <Route exact path='/cv' component={CV} />
-        <Route exact path='/contact' component={Contact} />
-      </Switch>
-
+      <div className="main-container">
+        <Switch>
+          <Route exact path="/" component={About} />
+          <Route exact path='/about' component={About} />
+          <Route exact path='/portfolio' component={Portfolio} />
+          <Route exact path='/cv' component={CV} />
+          <Route exact path='/contact' component={Contact} />
+        </Switch>
+      </div>
       <Footer />
 
     </Router>

@@ -20,4 +20,8 @@ header {
 main {
     background-color: var(--secondary);
     color: var(--primary);
+    }
+
+.main-container {
+    height: 75vh;
 }

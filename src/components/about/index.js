@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => {
   return (
-    <div className='container'>
+    <div className='container h-4/5'>
       <h1 className='m-4'>About Me</h1>
       <p className='m-4 text-justify'>
       Full stack web developer with extensive background as a results-driven and people-focussed manager in the hospitality industry. 
@@ -13,15 +13,19 @@ const About = () => {
       </p>
       <div className='grid justify-items-center'>
         <h2 className='m-4'>Technical Skills</h2>
-        <ul className='list-disc list-inside m-4'>
-          <li>React</li>
-          <li>Node</li>
-          <li>Express</li>
-          <li>Apollo</li>
-          <li>MySQL</li>
-          <li>MongoDB</li>
-          <li>GraphQL</li>
-          <li>TailwindCSS</li>
+        <ul className='grid grid-cols-2 list-disc list-inside m-4'>
+          <div>
+            <li>React</li>
+            <li>Node</li>
+            <li>Express</li>
+            <li>Apollo</li>
+          </div>
+          <div>
+            <li>MySQL</li>
+            <li>MongoDB</li>
+            <li>GraphQL</li>
+            <li>TailwindCSS</li>
+          </div>
         </ul>
       </div>
     </div>

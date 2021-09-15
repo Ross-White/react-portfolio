@@ -55,7 +55,7 @@ const Contact = () => {
 
           <textarea className='form-textarea m-4' value={message} name="message" onChange={handleInputChange} type="text" placeholder="Message" />
 
-          <button className='block button m-4' class="btn btn-primary" type="button" onClick={handleFormSubmit}>Submit</button>
+          <button className='block button m-4' className="btn btn-primary" type="button" onClick={handleFormSubmit}>Submit</button>
         </form>
         {errorMessage && (
           <div>

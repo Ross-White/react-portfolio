@@ -5,7 +5,7 @@ const Project = (props) => {
   return (
     <div className="min-w-1/2 h-1/3 rounded overflow-hidden shadow-lg my-s">
       <div className="flex flex-row" >
-        <img className="w-full" src={image} />
+        <img className="w-full" src={image} alt={props.title} />
         <div className="px-6 py-4">
           <h1 className="font-bold text-xl mb-2">{props.title}</h1>
           <p className="text-grey-darker text-base">{props.description}</p>

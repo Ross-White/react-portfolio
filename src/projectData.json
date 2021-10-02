@@ -3,7 +3,7 @@
         {
             "title": "Mates-Rates",
             "description": "Mobile App for sharing costs and itineraries when travelling with friends",
-            "image": "code-img.jpg",
+            "image": "https://github.com/Ross-White/mates-rate/blob/main/docs/images/costs.JPG?raw=true",
             "technology": "MongoDB, Express.js, React, Node, AWS sns, Tailwind CSS, Git.",
             "url": "",
             "repo": "https://https://github.com/Ross-White/mates-rate"
@@ -11,7 +11,7 @@
         {
             "title": "GumFree",
             "description": "App for sharing unwanted items in your local area.",
-            "image": "gumfree.jpg",
+            "image": "https://github.com/Ross-White/Gumfree/blob/main/docs/assets/images/Screenshot.JPG?raw=true",
             "technology": "Node.js, Express.js, Handlebars.js, MySQL, Sequelize ORM, CSS, Git.",
             "url": "https://gum-free.herokuapp.com/",
             "repo": "https://github.com/Ross-White/Gumfree"
@@ -19,7 +19,7 @@
         {
             "title": "Wish We Were There",
             "description": "App for creating composite images of yourself in holiday destinations, in lieu of actually being able to travel there",
-            "image": "WWWT.jpg",
+            "image": "https://github.com/TemyTemy/team-trol/blob/main/Assets/Images/screenshot1.PNG?raw=true",
             "technology": "Javascript ES6, HTML, CSS, JQuery, Git.",
             "url": "https://osaxon.github.io/team-trol/",
             "repo": "https://github.com/Ross-White/team-trol"

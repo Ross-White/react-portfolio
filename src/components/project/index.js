@@ -1,11 +1,12 @@
 import React from 'react';
 
 const Project = (props) => {
-  var image=`../images/projects/${props.image}`;
   return (
-    <div className="min-w-1/2 h-1/3 rounded overflow-hidden shadow-lg my-s">
-      <div className="flex flex-row" >
-        <img className="w-full" src={image} alt={props.title} />
+    <div className="w-1/4 rounded overflow-hidden shadow-lg my-s bg-scondary-color border-2">
+      <div className="flex flex-row">
+        <div className="">
+          <img className="object-fill object-bottom" src={props.image} alt={props.title} />
+        </div>
         <div className="px-6 py-4">
           <h1 className="font-bold text-xl mb-2">{props.title}</h1>
           <p className="text-grey-darker text-base">{props.description}</p>

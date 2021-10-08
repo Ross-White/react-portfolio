@@ -11,7 +11,7 @@
         {
             "title": "GumFree",
             "description": "App for sharing unwanted items in your local area.",
-            "image": "gumfree.JPG",
+            "image": "gumfree.png",
             "technology": "Node.js, Express.js, Handlebars.js, MySQL, Sequelize ORM, CSS, Git.",
             "url": "https://gum-free.herokuapp.com/",
             "repo": "https://github.com/Ross-White/Gumfree"

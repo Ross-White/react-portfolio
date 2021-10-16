@@ -13,7 +13,7 @@ function App() {
 
     <Router>
       <Header />
-      <div className="main-container">
+      <div className="main-container flex justify-center">
         <Switch>
           <Route exact path="/" component={About} />
           <Route exact path='/about' component={About} />

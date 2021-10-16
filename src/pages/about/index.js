@@ -6,7 +6,7 @@ const About = () => {
       <div className="flex flex-col md:flex-row rounded-xl">
         <img className="w-full object-cover md:w-1/3 float-left rounded-xl" src="./images/wm_cartoonize_rkJSA_lisbon (1).jpg" alt="ross-cartoon" />
         <p className='m-8 text-center text-2xl'>
-        I'm Ross, a full stack web developer with an extensive background as a manager in the hospitality industry. Having decided to make a creer change and follow my passion for new tech and problem solving, I recently graduated from the University of Manchester Coding Boot Camp, and now I am excited about starting my career as a developer. Experience of building full stack web apps from the ground up, individually and as part of a small distributed team, utilising tech such as Git, Miro and Slack to work collaboratively in a remote team. Always happy to take on a challenge, I enjoy testing myself learning new technologies and languages, as well as findling elegant solutions to problems.
+        I'm Ross, a full stack web developer with an extensive background as a manager in the hospitality industry. Recently graduated from the University of Manchester Coding Boot Camp, and now I am excited about starting my career as a developer. Experience of building full stack web apps from the ground up, individually and as part of a small distributed team, utilising tech such as Git, Miro and Slack to work collaboratively whilst remote. Natural problem solver, who enjoys the challenge of learning new skills and technologies.
         </p>
       </div>
       <div className='w-full'>

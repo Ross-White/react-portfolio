@@ -13,9 +13,9 @@ const Navigation = () => {
                 {/* <li className='mr-3'>
                     <a className='inline-block hover:text-gray-400' href="/contact">Contact</a>
                 </li> */}
-                {/* <li className='mr-3'>
+                <li className='mr-3'>
                     <a className='inline-block hover:text-gray-400' href="/cv">CV</a>
-                </li> */}
+                </li>
             </ul>
         </nav>
     )

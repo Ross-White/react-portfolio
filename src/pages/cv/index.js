@@ -3,7 +3,7 @@ import React from 'react';
 const CV = () => {
   return (
     <div className="flex flex-row">
-      <section className="flex flex-col w-1/4 text-center py-32 px-8 text-xl content-center">
+      <section className="flex flex-col w-1/4 text-center py-32 px-8 my-32 text-l content-center">
         <h1 className="underline text-3xl">Contact</h1>
         <div className="my-8">
           <p className="my-4">Email: info@ross-white.co.uk</p>
@@ -11,7 +11,7 @@ const CV = () => {
           <p className="my-4">GitHub: <a href="https://github.com/Ross-White" target="_blank">github.com/Ross-White</a></p>
         </div>
       </section>
-      <div className="w-3/4 px-16 my-8 mx-16">
+      <div className="w-3/4 px-16 my-8">
         <section className="justify-center">
           <h1 className="text-center underline text-3xl">Work Experience</h1>
           <div className="my-8">

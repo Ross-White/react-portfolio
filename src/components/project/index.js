@@ -3,9 +3,9 @@ import React from 'react';
 const Project = (props) => {
   var image=`./images/${props.image}`
   return (
-    <div className="w-full h-80 flex md:flex-col md:w-1/4 rounded overflow-hidden shadow-lg my-s bg-scondary-color border-2">
+    <div key={props.index} className={props.index === props.currentProject ? "w-full h-80 flex md:flex-col md:w-1/4 rounded overflow-hidden shadow-lg my-s bg-scondary-color border-2" : 'hidden'}>
       <div>
-          <img className="w-1/2 object-scale-down" src={image} alt={props.title} />
+        <img className="w-1/2 object-scale-down" src={image} alt={props.title} />
         <div className="px-8 py-2">
           <h1 className="font-bold text-xl mb-2">{props.title}</h1>
           <p className="text-grey-darker text-base">{props.description}</p>

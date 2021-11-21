@@ -1,4 +1,4 @@
-import React from 'react'; 
+import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Header from './components/header';
 import About from './pages/about';
@@ -8,24 +8,25 @@ import CV from './pages/cv';
 import Footer from './components/footer';
 
 
-function App() {
-  return(
+export default class App extends Component {
+  render() {
+    return (
+      <Router>
+        <Header />
+        <div className="main-container flex justify-center">
+          <Switch>
+            <Route exact path="/" component={About} />
+            <Route exact path='/about' component={About} />
+            <Route exact path='/portfolio' component={Portfolio} />
+            <Route exact path='/cv' component={CV} />
+            <Route exact path='/contact' component={Contact} />
+          </Switch>
+        </div>
+        <Footer />
 
-    <Router>
-      <Header />
-      <div className="main-container flex justify-center">
-        <Switch>
-          <Route exact path="/" component={About} />
-          <Route exact path='/about' component={About} />
-          <Route exact path='/portfolio' component={Portfolio} />
-          <Route exact path='/cv' component={CV} />
-          <Route exact path='/contact' component={Contact} />
-        </Switch>
-      </div>
-      <Footer />
+      </Router>
+    );
+  }
+}
 
-    </Router>
-  );
-};
 
-export default App;

@@ -57,15 +57,15 @@ class Portfolio extends Component {
             //   technology={project.technology}
             //   url={project.url} 
             //   repo={project.repo} />
-            <div key={index} className={index === this.state.currentProject ? "w-full h-80 flex md:flex-col md:w-2/3 md:h-2/3 rounded overflow-hidden shadow-lg my-s bg-scondary-color border-2" : 'hidden'}>
-              <div className="flex md:flex-col justify-center">
-                <img className="w-1/2 object-scale-down" src={`./images/${project.image}`} alt={project.title} />
-                <div className="px-8 py-2">
+            <div key={index} className={index === this.state.currentProject ? "w-full h-80 flex md:flex-col md:h-2/3 rounded overflow-hidden my-s bg-scondary-color" : 'hidden'}>
+              <div className="flex flex-col">
+                <img className="w-1/2 object-scale-down self-center shadow-2xl" src={`./images/${project.image}`} alt={project.title} />
+                <div className="mt-4 px-8 py-2 text-center">
                   <h1 className="font-bold text-xl mb-2">{project.title}</h1>
                   <p className="text-grey-darker text-base">{project.description}</p>
                   <p className="font-bold">{project.technology}</p>
                 </div>
-                <div className="px-6 py-4">
+                <div className="px-6 py-4 text-center">
                   <a href={project.url} className="inline-block bg-grey-lighter rounded-full px-3 py-1">Deployed App</a>
                   <a href={project.repo} className="inline-block bg-grey-lighter rounded-full px-3 py-1">Repo</a>
                 </div>

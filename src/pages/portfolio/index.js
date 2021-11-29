@@ -42,6 +42,7 @@ const Portfolio = () => {
             <div className="px-6 py-4">
               <a href={project.url} className="inline-block bg-grey-lighter rounded-full px-3 py-1">Deployed App</a>
               <a href={project.repo} className="inline-block bg-grey-lighter rounded-full px-3 py-1">Repo</a>
+
             </div>
           </section>
         </div>

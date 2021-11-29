@@ -13,7 +13,7 @@ export default class App extends Component {
     return (
       <Router>
         <Header />
-        <div className="main-container flex justify-center">
+        <div className="main-container flex justify-center bg-primary-color">
           <Switch>
             <Route exact path="/" component={About} />
             <Route exact path='/about' component={About} />

@@ -7,8 +7,8 @@ const CV = () => {
         <h1 className="underline text-3xl">Contact</h1>
         <div className="my-8">
           <p className="my-4">Email: info@ross-white.co.uk</p>
-          <p className="my-4">LinkedIn: <a href="https://www.linkedin.com/in/ross-white1/" target="_blank">linkedin.com/in/ross-white1/</a></p>
-          <p className="my-4">GitHub: <a href="https://github.com/Ross-White" target="_blank">github.com/Ross-White</a></p>
+          <p className="my-4">LinkedIn: <a href="https://www.linkedin.com/in/ross-white1/" target="_blank" rel='noreferrer'>linkedin.com/in/ross-white1/</a></p>
+          <p className="my-4">GitHub: <a href="https://github.com/Ross-White" target="_blank" rel='noreferrer'>github.com/Ross-White</a></p>
         </div>
       </section>
       <div className="w-3/4 px-16 my-8">
